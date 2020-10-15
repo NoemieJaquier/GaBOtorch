@@ -1,5 +1,5 @@
 # GaBOtorch
-This repository contains the source code to perform Geometry-aware Bayesian Optimization (GaBO) on Riemannian manifolds.
+This repository contains the source code to perform Geometry-aware Bayesian Optimization (GaBO) and High-Dimensional Geometry-aware Bayesian Optimization (HD-GaBO) on Riemannian manifolds.
 
 # Dependencies
 This code runs with Python>=3.6. It requires the following packages:
@@ -24,7 +24,7 @@ pip install -e .
 
 
 # Examples
-The following examples are available in GaBOflow:
+The following examples are available in GaBOtorch:
 ### Kernels
 | Sphere manifold      |           | 
 |:------------- |:-------------| 
@@ -55,6 +55,16 @@ The following examples are available in GaBOflow:
 | gabo_spd      | This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the SPD manifold S2_++ to optimize the Ackley function. | 
 | bo_cholesky_spd      | This example shows the use of Cholesky Bayesian optimization on the SPD manifold S2_++ to optimize the Ackley function. An Euclidean BO is applied on the Cholesky decomposition of the SPD matrices.  | 
 | bo_euclidean_spd      | This example shows the use of Euclidean Bayesian optimization on the SPD manifold S2_++ to optimize the Ackley function. |
+
+### High-dimentional BO on the sphere
+| Benchmark examples      |           | 
+|:------------- |:-------------| 
+| hd_gabo_sphere      | This example shows the use of High-Dimensional Geometry-aware Bayesian optimization (HD-GaBO) to optimize the Ackley function on a latent sphere S2 embedded in the sphere S5. | 
+
+### BO on the SPD manifold
+| Benchmark examples      |           | 
+|:------------- |:-------------| 
+| hd_gabo_spd      | This example shows the use of High-Dimensional Geometry-aware Bayesian optimization (HD-GaBO)  to optimize the Rosenbrock function on a latent SPD manifold S2_++ embedded in the SPD manifold S5_++. | 
 
 # References
 If you found GaBOtorch useful, we would be grateful if you cite the following [reference](http://njaquier.ch/files/CoRL19_Jaquier_GaBO.pdf):
