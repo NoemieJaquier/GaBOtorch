@@ -24,7 +24,7 @@ from BoManifolds.plot_utils.bo_plots import bo_plot_function_sphere, bo_plot_acq
 from BoManifolds.BO_test_functions.test_functions_sphere import ackley_function_sphere, optimum_ackley_sphere
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 
 '''
 This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the sphere S2 to optimize the Ackley 
@@ -87,7 +87,6 @@ if __name__ == "__main__":
         disp_fig = True
     else:
         disp_fig = False
-    disp_fig = False
 
     # Instantiate the manifold
     sphere_manifold = pyman_man.Sphere(dim)

@@ -13,7 +13,7 @@ from BoManifolds.kernel_utils.kernels_sphere import SphereGaussianKernel, Sphere
 from BoManifolds.plot_utils.manifolds_plots import plot_sphere
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 """
 This example shows the use of different kernels for the hypershere manifold S^n , used for Gaussian process regression.
 The tested function corresponds to a Gaussian distribution with a mean defined on the sphere and a covariance defined on 

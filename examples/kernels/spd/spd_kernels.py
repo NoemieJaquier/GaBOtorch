@@ -15,7 +15,7 @@ from BoManifolds.Riemannian_utils.spd_utils import expmap, symmetric_matrix_to_v
 from BoManifolds.plot_utils.manifolds_plots import plot_spd_cone
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 """
 This example shows the use of different kernels for the SPD manifold, used for Gaussian process regression.
 Artificial data are created from the time t and positions x of C-shape trajectory. The input data corresponds to the 

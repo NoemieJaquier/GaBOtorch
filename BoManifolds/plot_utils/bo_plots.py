@@ -8,7 +8,7 @@ from BoManifolds.Riemannian_utils.utils import rotation_matrix_from_axis_angle
 from BoManifolds.plot_utils.manifolds_plots import plot_spd_cone
 
 plt.rcParams['text.usetex'] = True
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 
 '''
 This file is part of the GaBOtorch library.

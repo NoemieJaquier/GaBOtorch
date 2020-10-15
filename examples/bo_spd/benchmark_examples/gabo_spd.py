@@ -31,7 +31,7 @@ from BoManifolds.plot_utils.bo_plots import bo_plot_function_spd, bo_plot_gp_spd
 from BoManifolds.BO_test_functions.test_functions_spd import ackley_function_spd, optimum_ackley_spd
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 
 """
 This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the SPD manifold S2_++ to optimize the 

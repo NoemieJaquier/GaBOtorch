@@ -9,7 +9,7 @@ from BoManifolds.kernel_utils.kernels_sphere import SphereGaussianKernel
 from BoManifolds.plot_utils.manifolds_plots import plot_sphere
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 """
 This example shows the experimental selection of parameters for the Sphere Gaussian kernel. To do so, a random sampling 
 is carried out from different Gaussian distributions on the manifold (random mean and identity covariance 

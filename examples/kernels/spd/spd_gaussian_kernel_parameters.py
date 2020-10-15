@@ -14,7 +14,7 @@ from BoManifolds.kernel_utils.kernels_spd import SpdAffineInvariantGaussianKerne
 from BoManifolds.plot_utils.manifolds_plots import plot_spd_cone
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 """
 This example shows the experimental selection of parameters for the SPD Affine-Invariant kernel. To do so, a random 
 sampling is carried out on the SPD manifold for minimum and maximum eigenvalues included in a given interval.

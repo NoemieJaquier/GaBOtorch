@@ -69,9 +69,9 @@ def rotation_from_sphere_points_torch(x, y):
     -------
     :return: rotation matrix
     """
-    if x.dim() is 1:
+    if x.dim() == 1:
         x = x.unsqueeze(-2)
-    if y.dim() is 1:
+    if y.dim() == 1:
         y = y.unsqueeze(-2)
 
     dim = x.shape[1]

@@ -28,7 +28,7 @@ from BoManifolds.BO_test_functions.test_functions_spd import ackley_function_spd
     cholesky_function_wrapped
 
 plt.rcParams['text.usetex'] = True  # use Latex font for plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{bm}']
+plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 
 '''
 This example shows the use of Cholesky Bayesian optimization on the SPD manifold S2_++ to optimize the Ackley function.
