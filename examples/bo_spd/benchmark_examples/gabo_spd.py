@@ -37,16 +37,15 @@ plt.rcParams['text.latex.preamble'] = r'\usepackage{bm}'
 This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the SPD manifold S2_++ to optimize the 
 Ackley function. 
 
-The test function, defined on the tangent space of the north pole, is projected on the SPD manifold with the 
-exponential map (i.e. the logarithm map is used to determine the function value). 
+The test function, defined on the tangent space of 2*I, is projected on the SPD manifold with the exponential map 
+(i.e. the logarithm map is used to determine the function value). 
 The search space is defined as a subspace of the SPD manifold bounded by minimum and maximum eigenvalues. These bounds 
 are defined by setting maximum/minimum eigenvalues to the pymanopt SPD manifold.
 GaBO uses a Gaussian kernel with the geodesic distance. To guarantee the positive-definiteness of the kernel, the 
 lengthscale beta must be above the beta min value. This value can be determined by using the example 
-kernels/sphere_gaussian_kernel_parameters.py for each sphere manifold.
-The acquisition function is optimized on the manifold with the constrained conjugate gradient descent method on 
-Riemannian manifold. The conjugate gradient descent is originally implemented in pymanopt. A constrained version 
-is used here to handle bound constraints.
+kernels/spd_gaussian_kernel_parameters.py for each SPD manifold.
+The acquisition function is optimized on the manifold with the constrained trust regions on Riemannian manifolds.
+The trust regions algorithm is originally implemented in pymanopt. A constrained version is used here.
 
 The dimension of the manifold is set by the variable 'dim'. Note that the following element must be adapted when the 
 dimension is modified:
