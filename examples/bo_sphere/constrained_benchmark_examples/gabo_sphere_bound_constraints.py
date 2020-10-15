@@ -68,7 +68,7 @@ the BO observation with dots. The bounds of the optimization domain are displaye
 This file is part of the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2020
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 '''
 
 if __name__ == "__main__":

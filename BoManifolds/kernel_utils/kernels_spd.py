@@ -10,7 +10,7 @@ from BoManifolds.Riemannian_utils.spd_utils_torch import logm_torch, vector_to_s
 This file is part of the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2020
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 '''
 
 

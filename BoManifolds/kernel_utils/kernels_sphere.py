@@ -8,7 +8,7 @@ from BoManifolds.Riemannian_utils.sphere_utils_torch import sphere_distance_torc
 This file is part of the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2020
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 '''
 
 

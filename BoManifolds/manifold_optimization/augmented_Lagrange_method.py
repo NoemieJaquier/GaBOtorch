@@ -17,7 +17,7 @@ from BoManifolds.manifold_optimization.approximate_hessian import get_hessianfd
 This file is part of the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2020
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 
 This code is an adaptation of the original Matlab code "Optimization-on-manifolds-with-extra-constraints",
 (https://github.com/losangle/Optimization-on-manifolds-with-extra-constraints in solvers/almbddmultiplier.m)

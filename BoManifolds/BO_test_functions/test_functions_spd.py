@@ -7,7 +7,7 @@ from BoManifolds.Riemannian_utils.spd_utils import vector_to_symmetric_matrix_ma
 This file is part of the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2019
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 '''
 
 

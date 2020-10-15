@@ -13,7 +13,7 @@ if not hasattr(__builtins__, "xrange"):
 This file was ported to the GaBOtorch library.
 Authors: Noemie Jaquier and Leonel Rozo, 2020
 License: MIT
-Contact: noemie.jaquier@idiap.ch, leonel.rozo@de.bosch.com
+Contact: noemie.jaquier@kit.edu, leonel.rozo@de.bosch.com
 
 The classes of this file are based on the class implemented in pymanopt.solver.trust_regions.py of the Pymanop package.
 From Pymanopt:
