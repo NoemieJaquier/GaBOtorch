@@ -67,11 +67,11 @@ The following examples are available in GaBOtorch:
 | hd_gabo_spd      | This example shows the use of High-Dimensional Geometry-aware Bayesian optimization (HD-GaBO)  to optimize the Rosenbrock function on a latent SPD manifold S2_++ embedded in the SPD manifold S5_++. | 
 
 # References
-If you found GaBOtorch useful, we would be grateful if you cite the following [reference](http://njaquier.ch/files/CoRL19_Jaquier_GaBO.pdf):
+If you found GaBOtorch useful, we would be grateful if you cite the following references:
 
-[1] N. Jaquier, L. Rozo, S. Calinon, and M. Bürger (2019). Bayesian Optimization meets Riemannian Manifolds in Robot Learning. In Conference on Robot Learning (CoRL).
+[1](http://njaquier.ch/files/CoRL19_Jaquier_GaBO.pdf) N. Jaquier, L. Rozo, S. Calinon, and M. Bürger (2019). Bayesian Optimization meets Riemannian Manifolds in Robot Learning. In Conference on Robot Learning (CoRL).
 
-[2] N. Jaquier, and L. Rozo (2020). High-dimensional Bayesian Optimization via Nested Riemannian Manifolds. In Neural Information Processing Systems (NeurIPS). 
+[2](http://njaquier.ch/files/HDGaBO.pdf) N. Jaquier, and L. Rozo (2020). High-dimensional Bayesian Optimization via Nested Riemannian Manifolds. In Neural Information Processing Systems (NeurIPS). 
 
 ```
 @inproceedings{Jaquier19GaBO,
