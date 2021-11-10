@@ -70,6 +70,7 @@ The following examples are available in GaBOtorch:
 If you found GaBOtorch useful, we would be grateful if you cite the following [reference](http://njaquier.ch/files/CoRL19_Jaquier_GaBO.pdf):
 
 [1] N. Jaquier, L. Rozo, S. Calinon, and M. Bürger (2019). Bayesian Optimization meets Riemannian Manifolds in Robot Learning. In Conference on Robot Learning (CoRL).
+
 [2] N. Jaquier, and L. Rozo (2020). High-dimensional Bayesian Optimization via Nested Riemannian Manifolds. In Neural Information Processing Systems (NeurIPS). 
 
 ```
