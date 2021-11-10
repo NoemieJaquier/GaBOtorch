@@ -25,7 +25,7 @@ pip install -e .
 
 # Examples
 The following examples are available in GaBOtorch:
-### Kernels
+### Kernels [1]
 | Sphere manifold      |           | 
 |:------------- |:-------------| 
 | sphere_kernels      | This example shows the use of different kernels for the hypershere manifold S^n , used for Gaussian process regression. | 
@@ -37,7 +37,7 @@ The following examples are available in GaBOtorch:
 | spd_gaussian_kernel_parameters      | This example shows the experimental selection of parameters for the SPD Affine-Invariant Gaussian kernel.  |
 
 
-### BO on the sphere
+### BO on the sphere [1]
 | Benchmark examples      |           | 
 |:------------- |:-------------| 
 | gabo_sphere      | This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the sphere S2 to optimize the Ackley function. | 
@@ -49,19 +49,19 @@ The following examples are available in GaBOtorch:
 | gabo_sphere_equality_constraints    | This example shows the use of Euclidean Bayesian optimization on the sphere S2 to optimize the Ackley function.  In this example, the parameters must satisfy equality constraints and the search space represents a subspace of the manifold. |
 | gabo_sphere_equality_constraints    | This example shows the use of Euclidean Bayesian optimization on the sphere S2 to optimize the Ackley function.  In this example, the parameters must satisfy inequality constraints and the search space represents a subspace of the manifold. |
 
-### BO on the SPD manifold
+### BO on the SPD manifold [1]
 | Benchmark examples      |           | 
 |:------------- |:-------------| 
 | gabo_spd      | This example shows the use of Geometry-aware Bayesian optimization (GaBO) on the SPD manifold S2_++ to optimize the Ackley function. | 
 | bo_cholesky_spd      | This example shows the use of Cholesky Bayesian optimization on the SPD manifold S2_++ to optimize the Ackley function. An Euclidean BO is applied on the Cholesky decomposition of the SPD matrices.  | 
 | bo_euclidean_spd      | This example shows the use of Euclidean Bayesian optimization on the SPD manifold S2_++ to optimize the Ackley function. |
 
-### High-dimentional BO on the sphere
+### High-dimentional BO on the sphere [2]
 | Benchmark examples      |           | 
 |:------------- |:-------------| 
 | hd_gabo_sphere      | This example shows the use of High-Dimensional Geometry-aware Bayesian optimization (HD-GaBO) to optimize the Ackley function on a latent sphere S2 embedded in the sphere S5. | 
 
-### BO on the SPD manifold
+### High-diemnsional BO on the SPD manifold [2]
 | Benchmark examples      |           | 
 |:------------- |:-------------| 
 | hd_gabo_spd      | This example shows the use of High-Dimensional Geometry-aware Bayesian optimization (HD-GaBO)  to optimize the Rosenbrock function on a latent SPD manifold S2_++ embedded in the SPD manifold S5_++. | 
@@ -69,15 +69,22 @@ The following examples are available in GaBOtorch:
 # References
 If you found GaBOtorch useful, we would be grateful if you cite the following [reference](http://njaquier.ch/files/CoRL19_Jaquier_GaBO.pdf):
 
-[1] N. Jaquier, L. Rozo, S. Calinon and M. Bürger (2019). Bayesian Optimization meets Riemannian Manifolds in Robot Learning. In Conference on Robot Learning (CoRL).
+[1] N. Jaquier, L. Rozo, S. Calinon, and M. Bürger (2019). Bayesian Optimization meets Riemannian Manifolds in Robot Learning. In Conference on Robot Learning (CoRL).
+[2] N. Jaquier, and L. Rozo (2020). High-dimensional Bayesian Optimization via Nested Riemannian Manifolds. In Neural Information Processing Systems (NeurIPS). 
+
 ```
 @inproceedings{Jaquier19GaBO,
 	author="Jaquier, N and Rozo, L. and Calinon, S. and B\"urger, M.", 
 	title="Bayesian Optimization meets Riemannian Manifolds in Robot Learning",
 	booktitle="In Conference on Robot Learning (CoRL)",
 	year="2019",
-	month="October",
-	address="Osaka, Japan",
+	pages=""
+}
+@inproceedings{Jaquier20HDGaBO,
+	author="Jaquier, N and Rozo, L.", 
+	title="High-dimensional Bayesian Optimization via Nested Riemannian Manifolds",
+	booktitle="Neural Information Processing Systems (NeurIPS)",
+	year="2020",
 	pages=""
 }
 ```
